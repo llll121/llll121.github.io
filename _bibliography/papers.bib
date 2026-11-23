@@ -49,13 +49,14 @@
   abstract    = {The proliferation of time series foundation models has created a landscape where no single method achieves consistent superiority, framing the central challenge not as finding the best model, but as orchestrating an optimal ensemble with interpretability. While Large Language Models (LLMs) offer powerful reasoning capabilities, their direct application to time series forecasting has proven ineffective. We address this gap by repositioning the LLM as an intelligent judge that evaluates, explains, and strategically coordinates an ensemble of foundation models. To overcome the LLM's inherent lack of domain-specific knowledge on time series, we introduce an R1-style finetuning process, guided by SHAP-based faithfulness scores, which teaches the model to interpret ensemble weights as meaningful causal statements about temporal dynamics. The trained agent then engages in iterative, multi-turn conversations to perform forward-looking assessments, provide causally-grounded explanations for its weighting decisions, and adaptively refine the optimization strategy. Validated on the GIFT-Eval benchmark on 23 datasets across 97 settings, our approach significantly outperforms leading time series foundation models on both CRPS and MASE metrics, establishing new state-of-the-art results.}
 }
 
-@article{cao2025energy,
-  abbr         = {Preprint},
+@inproceedings{cao2025energy,
+  abbr         = {NeurIPS Workshop},
   bibtex_show  = {true},
   title        = {Energy-Based Physics-Informed Diffusion Transformers Sampling for Time Series Forecasting},
   author       = {Cao, Defu and Liu, Jinbo and Liu, Yan},
-  journal      = {Preprint},
+  booktitle    = {NeurIPS 2025 Workshop on Frontiers in Probabilistic Inference (FPI)},
   year         = {2025},
+  html         = {https://neurips.cc/virtual/2025/127454},
   pdf          = {https://openreview.net/pdf?id=rdiElRhUU1},
   abstract     = {Scientific time series data, particularly in climate science, present unique challenges at the intersection of probabilistic inference and physical constraints. While large pre-trained Time Series Diffusion Transformers excel at capturing complex data distributions, they lack mechanisms to enforce physical consistency. To address this gap, we present a novel framework for adapting pre-trained generative models for scientific tasks. Our contribution is a model-agnostic physics-injection module that employs Langevin dynamics at inference time to steer predictions toward physically consistent solutions without costly retraining. We provide theoretical guarantees for convergence under physical constraints and empirically validate our method across multiple synthetic partial differential equations and climate systems, offering insights into the synergy between machine learning and physics-based sampling for scientific applications.}
 }
