@@ -1,0 +1,12 @@
+# Links for co-authors in the publication list. The key is the last name in lowercase.
+"hu":
+  - firstname: ["Xiyang", "X."]
+    url: https://xiyanghu.github.io/
+
+"liu":
+  - firstname: ["Yan", "Y."]
+    url: https://melady.usc.edu/
+
+"zhao":
+  - firstname: ["Yue", "Y."]
+    url: https://viterbi-web.usc.edu/~yzhao010/

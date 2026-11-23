@@ -1,0 +1,8 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: "%6A%69%6E%62%6F%6C%69%75@%61%73%75%2E%65%64%75" # jinboliu@asu.edu, percent-encoded so scrapers do not see the plain address
+scholar_userid: kYZ1AmkAAAAJ # your Google Scholar ID
+github_username: llll121 # your GitHub user name
+linkedin_username: jinbo-liu-4717a3302 # your LinkedIn user name
+cv_pdf: /assets/rendercv/rendercv_output/Jinbo_Liu_CV.pdf # path to your CV PDF file

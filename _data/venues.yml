@@ -1,0 +1,16 @@
+# Badge colors for the `abbr` field of each entry in _bibliography/papers.bib
+"ACL Findings":
+  url: https://aclanthology.org/
+  color: "#b5232c"
+
+"ICML Workshop":
+  url: https://icml.cc/
+  color: "#1f5aa6"
+
+"NeurIPS Workshop":
+  url: https://neurips.cc/
+  color: "#6a3fa0"
+
+"Preprint":
+  url: https://arxiv.org/
+  color: "#5f6b7a"
