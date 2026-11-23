@@ -9,7 +9,6 @@ Personal academic website of Jinbo Liu, built with the [al-folio](https://github
 | Bio, photo caption | `_pages/about.md`, photo at `assets/img/prof_pic.jpg` |
 | Publications | `_bibliography/papers.bib` (`selected = {true}` puts a paper on the home page; thumbnails go in `assets/img/publication_preview/`) |
 | News | one Markdown file per item in `_news/` |
-| CV page and PDF | `_data/cv.yml` (the "Render a CV" GitHub Action rebuilds the PDF when this file changes) |
 | Social links | `_data/socials.yml` |
 | Site settings | `_config.yml` |
 

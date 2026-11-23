@@ -9,11 +9,11 @@ last_name: Liu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jinbo Liu is a Ph.D. student at Arizona State University working on LLM-based agentic systems, AI safety, and trustworthy machine learning.
+  Jinbo Liu is a Ph.D. student at Arizona State University working on LLM-based agentic systems, AI safety, and self-evolving agents.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Jinbo Liu, LLM agents, AI safety, trustworthy machine learning, multi-agent systems, Arizona State University # add your own keywords or leave empty
+keywords: Jinbo Liu, LLM agents, AI safety, self-evolving agents, multi-agent systems, Arizona State University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌵 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -71,7 +71,7 @@ al_folio:
     allow_remote_loader: false
   features:
     cv:
-      enabled: true
+      enabled: false
     distill:
       enabled: true
   compat:
@@ -683,7 +683,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json: [] # this site uses the RenderCV format in _data/cv.yml, not JSON Resume
+jekyll_get_json: [] # no JSON Resume data on this site
 
 jsonresume:
   - basics
