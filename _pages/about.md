@@ -29,3 +29,8 @@ I am a first-year Ph.D. student in Data Science, Analytics and Engineering at [A
 My recent work measures how communication topology shapes private-memory leakage in multi-agent LLM systems ([Findings of ACL 2026](https://aclanthology.org/2026.findings-acl.1980/)), and audits how agent skills reshape agent behavior even when pass rates barely move ([arXiv 2026](https://arxiv.org/abs/2605.11946)).
 
 Before ASU, I received my M.S. in Computer Science from the [University of Southern California](https://www.usc.edu/), where I worked with [Prof. Yan Liu](https://melady.usc.edu/) on time series foundation models and LLM reasoning over time series, and with [Prof. Yue Zhao](https://viterbi-web.usc.edu/~yzhao010/) on privacy in multi-agent LLM systems. I received my B.S. in Computer Science from Troy University and my B.Eng. in Computer Science and Technology from Jiangsu University of Technology through a joint program.
+
+<style>
+  .publications .title a.title-link { color: inherit; }
+  .publications .title a.title-link:hover { color: var(--global-theme-color); text-decoration: underline; }
+</style>
